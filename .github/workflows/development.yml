@@ -11,7 +11,7 @@ permissions:
     contents: read
     pages: write
     id-token: write
-    
+
 # Allow one concurrent deployment
 concurrency:
     group: 'pages'
@@ -103,4 +103,4 @@ concurrency:
           with:
             context: ./
             push: true
-            tags: astb01/staybae-ci-cd:${{steps.build_version.outputs.current_tag}}-wip
+            tags: lilcorris/staybae:${{steps.build_version.outputs.current_tag}}-wip

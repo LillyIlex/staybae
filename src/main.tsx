@@ -10,7 +10,7 @@ import { FavouriteContextProvider } from './context/FavouritesContext';
 const siteName = process.env.NODE_ENV !== 'development' ? '/staybae/' : '/';
 const mockUrl =
   process.env.NODE_ENV !== 'development'
-    ? '/staybae-ui/mockServiceWorker.js'
+    ? '/staybae/mockServiceWorker.js'
     : '/mockServiceWorker.js';
 
 async function enableMocking() {
